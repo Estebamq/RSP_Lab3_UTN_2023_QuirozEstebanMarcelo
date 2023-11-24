@@ -19,7 +19,7 @@ const addTable = () => {
 
 const createRow = (item) => {
   const tr = document.createElement("tr");
-  const selectedInputs = [...inputsDefault,  ...inputsLand, ...inputsAir, ...inputsActions];
+  const selectedInputs = [...inputsDefault, ...inputsAir, ...inputsLand, ...inputsActions];
   const actions = ["edit", "delete"]
 
   selectedInputs.forEach((header) => {
